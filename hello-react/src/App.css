@@ -1,7 +1,11 @@
 * {
-  border: 3px solid red;
+  border: 3px solid #282c34;
   margin: 0px;
 
+}
+
+body {
+  border: none
 }
 
 .App {
@@ -45,7 +49,7 @@
 }
 
 .fondo {
-  background-color: #303030;
+  background-color: #282c34;
   margin: 10px 20px 10px 10px;
   height: 400px;
 
@@ -60,25 +64,25 @@
 }
 
 .justify-img-top img {
-  width: 40px;
+  width: 30px;
 }
 
 .article {
   color: white;
   width: 40%;
   text-align: left;
-  margin: 100px 400px 40px 60px;
+  margin: 0px 250px 40px 60px;
 
 }
 
 .titulo {
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 900;
   margin: 0px
 }
 
 .article p {
-  font-size: 15px;
+  font-size: 10px;
 }
 
 .funciones {
@@ -88,21 +92,35 @@
   justify-items: left;
   flex-direction: row;
   text-align: left;
+  border: none;
 }
 
 .funciones p {
   font-size: 12px;
-  color: grey
+  color: grey;
+  border: none;
 }
 
 .funciones div {
   margin-left: 40px;
+  border: none
 }
 
 .funciones img {
   width: 80px;
+  border: none;
+
 }
 
 .funciones h1 {
   font-size: 18px;
+  border: none;
+}
+
+.fondo h2 {
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 30px;
+  color: #282c34;
+  padding: 0px;
 }

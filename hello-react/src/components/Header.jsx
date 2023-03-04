@@ -1,6 +1,6 @@
 import React from "react";
-import ironhack from "../images/Ironhack.png";
-import icon1 from "../images/desplegable.png";
+import ironhack from "../images/ironhack-logo-xs.png";
+import icon1 from "../images/despleglable2.png";
 
 class Header extends React.Component {
     //las props se encuentran en el objeto this.props porqué es un CLASS COMPONENT
@@ -18,7 +18,7 @@ class Header extends React.Component {
                     <p>
                         You will learn how to use the most popular frontend library, and become a super ninja developer.
                     </p>
-                    <h2> Awesome! </h2>
+                    <h2> Awesome!</h2>
                 </section>
 
 
